@@ -13,7 +13,7 @@ import {
 const wasmOptFileName = Deno.build.os === "windows"
   ? "wasm-opt.exe"
   : "wasm-opt";
-const tag = "version_109";
+const tag = "version_116";
 
 export async function runWasmOpt(filePath: string) {
   const binPath = await getWasmOptBinaryPath();
